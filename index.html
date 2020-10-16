@@ -1,0 +1,39 @@
+<html>
+<!-- Code by Beast -->
+<head>
+    <title>Parallax Effect</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <div class="banner">
+        <h2 id="text">Heaven</h2>
+        <div class="clouds">
+            <img src="Clouds/1.png" style="--i:1;">
+            <img src="Clouds/2.png" style="--i:2;">
+            <img src="Clouds/3.png" style="--i:3;">
+            <img src="Clouds/4.png" style="--i:4;">
+            <img src="Clouds/5.png" style="--i:5;">
+            <img src="Clouds/1.png" style="--i:10;">
+            <img src="Clouds/2.png" style="--i:9;">
+            <img src="Clouds/3.png" style="--i:8;">
+            <img src="Clouds/4.png" style="--i:7;">
+            <img src="Clouds/5.png" style="--i:6;">
+        </div>
+    </div>
+    <section>
+        <h2>Realistic Cloud Banner Parallax Effects</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati est deleniti id debitis vero accusamus eligendi, libero, laudantium earum veniam praesentium maiores numquam aperiam sit commodi. Accusantium explicabo, aut.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati est deleniti id debitis vero accusamus eligendi, libero, laudantium earum veniam praesentium maiores numquam aperiam sit commodi. Accusantium explicabo, aut.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati est deleniti id debitis vero accusamus eligendi, libero, laudantium earum veniam praesentium maiores numquam aperiam sit commodi. Accusantium explicabo, aut.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati est deleniti id debitis vero accusamus eligendi, libero, laudantium earum veniam praesentium maiores numquam aperiam sit commodi. Accusantium explicabo, aut.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati est deleniti id debitis vero accusamus eligendi, libero, laudantium earum veniam praesentium maiores numquam aperiam sit commodi. Accusantium explicabo, aut.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati est deleniti id debitis vero accusamus eligendi, libero, laudantium earum veniam praesentium maiores numquam aperiam sit commodi. Accusantium explicabo, aut.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </section>
+    <script type="text/javascript">
+        let text = document.getElementById('text')
+        window.addEventListener('scroll', function(){
+           let value = window.scrollY;
+           text.style.marginBottom = value * 2 + 'px'; 
+        })
+    </script>
+</body>
+
+</html>
